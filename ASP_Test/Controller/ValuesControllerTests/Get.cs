@@ -24,7 +24,7 @@ namespace ASP_Test.Controller.ValuesControllerTests
         {
             var response = m_controller.Get();
 
-            Assert.Null(response);
+            Assert.NotNull(response);
         }
     }
 }

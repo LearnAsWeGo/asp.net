@@ -5941,11 +5941,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\asp.net\\ASP_Test\\ASP_Test.csproj",
+      "projectUniqueName": "C:\\Code\\Prod\\asp.net\\ASP_Test\\ASP_Test.csproj",
       "projectName": "ASP_Test",
-      "projectPath": "C:\\Code\\asp.net\\ASP_Test\\ASP_Test.csproj",
+      "projectPath": "C:\\Code\\Prod\\asp.net\\ASP_Test\\ASP_Test.csproj",
       "packagesPath": "C:\\Users\\arush\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\asp.net\\ASP_Test\\obj\\",
+      "outputPath": "C:\\Code\\Prod\\asp.net\\ASP_Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arush\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5962,8 +5962,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Code\\asp.net\\Jenkins_ASP\\Jenkins_ASP.csproj": {
-              "projectPath": "C:\\Code\\asp.net\\Jenkins_ASP\\Jenkins_ASP.csproj"
+            "C:\\Code\\Prod\\asp.net\\Jenkins_ASP\\Jenkins_ASP.csproj": {
+              "projectPath": "C:\\Code\\Prod\\asp.net\\Jenkins_ASP\\Jenkins_ASP.csproj"
             }
           }
         }
