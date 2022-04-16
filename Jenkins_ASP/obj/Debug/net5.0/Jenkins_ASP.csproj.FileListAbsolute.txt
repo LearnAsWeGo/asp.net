@@ -38,3 +38,4 @@ C:\Code\asp.net\Jenkins_ASP\obj\Debug\net5.0\ref\Jenkins_ASP.dll
 C:\Code\asp.net\Jenkins_ASP\obj\Debug\net5.0\Jenkins_ASP.pdb
 C:\Code\asp.net\Jenkins_ASP\obj\Debug\net5.0\Jenkins_ASP.genruntimeconfig.cache
 C:\Code\asp.net\Jenkins_ASP\obj\Debug\net5.0\Jenkins_ASP.csproj.CopyComplete
+C:\Code\asp.net\Jenkins_ASP\bin\Debug\net5.0\Properties\PublishProfiles\JenkinsTestStg-WebDeploy.pubxml
