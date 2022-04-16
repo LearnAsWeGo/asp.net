@@ -8,4 +8,10 @@
     <_WebToolingArtifacts Remove="Properties\PublishProfiles\JenkinsTestStg-WebDeploy.pubxml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Properties\PublishProfiles\JenkinsTestStg-WebDeploy.pubxml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
