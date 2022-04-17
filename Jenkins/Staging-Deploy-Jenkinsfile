@@ -1,7 +1,6 @@
 pipeline { 
 
-    echo "running on local slave"
-    agent Slave_On_Local
+    agent label Windows
 
     stages {
         stage('Build') { 
