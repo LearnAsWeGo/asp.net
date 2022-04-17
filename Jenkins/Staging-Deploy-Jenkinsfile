@@ -7,21 +7,21 @@ pipeline {
         stage('Build') { 
             steps { 
                 bat """
-    			dotnet build C:\Code\jenkins\SlaveFolder\workspace\Build_Branch_Pipeline_Staging_JenkinsFile\Jenkins_ASP\Jenkins_ASP.csproj
+    			dotnet build C:\\Code\\jenkins\\SlaveFolder\\workspace\\Build_Branch_Pipeline_Staging_JenkinsFile\\Jenkins_ASP\\Jenkins_ASP.csproj
   		"""
             }
         }
         stage('Test'){
             steps {
                bat """
-    			dotnet test C:\Code\jenkins\SlaveFolder\workspace\Build_Branch_Pipeline_Staging_JenkinsFile\ASP_Test\ASP_Test.csproj
+    			dotnet test C:\\Code\\jenkins\\SlaveFolder\\workspace\\Build_Branch_Pipeline_Staging_JenkinsFile\\ASP_Test\\ASP_Test.csproj
   		"""
             }
         }
         stage('Deploy') {
             steps {
                bat """
-    			dotnet publish C:\Code\jenkins\SlaveFolder\workspace\Build_Branch_Pipeline_Staging_JenkinsFile\Jenkins_ASP\Jenkins_ASP.csproj /p:PublishProfile=C:\Code\jenkins\SlaveFolder\workspace\Build_Branch_Pipeline_Stg\Jenkins_ASP\Properties\PublishProfiles\JenkinsTestStg-WebDeploy.pubxml
+    			dotnet publish C:\\Code\\jenkins\\SlaveFolder\\workspace\\Build_Branch_Pipeline_Staging_JenkinsFile\\Jenkins_ASP\\Jenkins_ASP.csproj /p:PublishProfile=C:\\Code\\jenkins\\SlaveFolder\\workspace\\Build_Branch_Pipeline_Stg\\Jenkins_ASP\\Properties\\PublishProfiles\\JenkinsTestStg-WebDeploy.pubxml
   		"""
             }
         }
